@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
 
-    <!-- STYLES -->
+    <!-- SWIPERJS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- ICONS -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- FONTS-->
+    <!-- STYLES-->
     <link rel="stylesheet" href="/assets/icomon/style.css" />
 
     <!-- FONTS -->
@@ -20,6 +26,7 @@
     />
   </head>
   <body>
+    <!-- HEADER -->
     <header id="header">
       <nav class="container shows">
         <a class="logo" href="#"> beauty<span>salon</span>. </a>
@@ -41,6 +48,7 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -62,6 +70,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -98,6 +107,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -145,12 +155,81 @@
 
       <div class="divider-1"></div>
 
+      <!-- TESTIMONIALS -->
       <section class="section" id="testimonials">
-        <div class="container grid">Depoimentos</div>
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quo, alias aut veniam quos magnam corporis, non
+                    reprehenderit natus rem magni voluptatum ducimus sit iusto
+                    architecto delectus adipisci? Doloribus, vero
+                    necessitatibus.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/36.jpg"
+                      alt="Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium laborum veritatis dolores mollitia nihil modi.
+                    Reiciendis consequatur quo maxime qui laboriosam. Sit labore
+                    nam est asperiores dolorem sunt nemo quos?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/65.jpg"
+                      alt=""
+                    />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quo, alias aut veniam quos magnam corporis, non
+                    reprehenderit natus rem magni voluptatum ducimus sit iusto
+                    architecto delectus adipisci? Doloribus, vero
+                    necessitatibus.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/48.jpg"
+                      alt=""
+                    />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
 
       <div class="divider-1"></div>
 
+      <!-- CONTACT -->
       <section class="section" id="contact">
         <div class="container grid">Contato</div>
       </section>
@@ -159,5 +238,6 @@
     <footer></footer>
   </body>
 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="main.js"></script>
 </html>
